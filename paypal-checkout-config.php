@@ -11,8 +11,8 @@ $enableSandbox = true;
 // PayPal settings. Change these to your account details and the relevant URLs
 // for your site.
 $paypalConfig = [
-    'client_id' => 'AQCvk_u1C5aQ0aGWoUZwikSzTuyrlMiVkl7KhlYCmda_kxmgc87mJje_uIaHFuM0ZY7LrKNVnA_c4lat',
-    'client_secret' => 'EPKV1VHMWQAVr1ZoWflTFLXPhiTN9Z-GOUUs6r9LperkDIPdaBBroqaZUTueFKCRKuCOQC1y02BwO3f3',
+    'client_id' => 'Your_Client_ID',
+    'client_secret' => 'Your_Secret_ID',
     'return_url' => 'http://localhost/paypal-checkout-response.php',
     'cancel_url' => 'http://localhost/checkout.php'
 ];
