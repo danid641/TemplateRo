@@ -1,0 +1,15 @@
+/*
+    .btn-paypal{
+    background-color: #f6c557;
+    background-image: url("https://companiesmarketcap.com/img/company-logos/256/PYPL.png");
+    background-position: center;
+    border-radius: 10px;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    }
+
+     <input type="submit" class="btn-paypal" name="paypal-validate" value="">                                     
+*/
