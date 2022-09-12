@@ -11,8 +11,8 @@ $enableSandbox = false;
 // PayPal settings. Change these to your account details and the relevant URLs
 // for your site.
 $paypalConfig = [
-    'client_id' => 'Acjp8sIbKAU4ZWAzFcdqf0pYsWb6SlhRlBzeHzCtqsbYmDky05Q0_5SZMhOPm2yq16kKur0PafaeYilR',
-    'client_secret' => 'EPqhWEtsRG_mlWCZLJKEX0tnnTCQyoxHvzsRnuyRFMCxmIBDWAFai6jFVdL_xPagxVT2tBwdoQEkrxDg',
+    'client_id' => 'PUBLIC_KEY',
+    'client_secret' => 'SECRET_KEY',
     'return_url' => 'http://localhost/add-credits-response.php',
     'cancel_url' => 'http://localhost/checkout.php'
 ];
