@@ -25,8 +25,8 @@ if (!empty($_POST['stripeToken'])) {
 
     //set stripe secret key and publishable key
     $stripe = array(
-        "secret_key"      => "sk_test_51KMTKUJjFJ9S3qktY3YBVSlqtJhMUySU66XNXZWBb8TO1Mkljdnij3MdPxBmQpFGl6lCJT7D2ZjW2d13SxOuoFAx00PH3IqLuf",
-        "publishable_key" => "pk_test_51KMTKUJjFJ9S3qktSegqV6cxmde04xPsvI4fDt8tHBREmBcF3zTjQwXUQdPX5jm2zsOtKPxXp4NLcMqx4sdSLjqw00EYQft4fu"
+        "secret_key"      => "PUBLIC_KEY",
+        "publishable_key" => "SECRET_KEY"
     );
 
     \Stripe\Stripe::setApiKey($stripe['secret_key']);
